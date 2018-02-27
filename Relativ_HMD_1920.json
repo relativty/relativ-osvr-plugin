@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "schemaVersion": 1
+    },
+    "hmd": {
+        "device": {
+            "vendor": "Relativty",
+            "model": "Relativ_HMD",
+            "num_displays": 1,
+            "Version": "1.0",
+            "Note": "Specific to the optics of Relativ HMD, with a specialized distortion correction mesh requiring apps to use RenderManager 0.6.40 or newer."
+        },
+        "field_of_view": {
+            "monocular_horizontal": 87.2553,
+            "monocular_vertical": 98.3423,
+            "overlap_percent": 100,
+            "pitch_tilt": 0
+        },
+        "resolutions": [
+			{
+            "width": 1920,
+            "height": 1080,
+            "video_inputs": 1,
+            "display_mode": "horz_side_by_side",
+            "swap_eyes": 1
+			}
+		],
+		"distortion": {
+			"distance_scale_x": 1,
+			"distance_scale_y": 1,
+			"polynomial_coeffs_red": [0, 0.7737, 0.5139, -2.1932, 6.6772, -3.8055 ],
+			"polynomial_coeffs_green": [0, 0.7737, 0.5139, -2.1932, 6.6772, -3.8055 ],
+			"polynomial_coeffs_blue": [0, 0.7737, 0.5139, -2.1932, 6.6772, -3.8055 ]
+		},
+        "rendering": {
+            "right_roll": 0,
+            "left_roll": 0
+        },
+        "eyes": [{
+            "center_proj_x": 0.4228,
+            "center_proj_y": 0.5,
+            "rotate_180": 0
+        }, {
+            "center_proj_x": 0.5772,
+            "center_proj_y": 0.5,
+            "rotate_180": 0
+        }]
+    }
+}
