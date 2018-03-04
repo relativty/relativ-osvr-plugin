@@ -17,47 +17,47 @@ You can download the latest version (**build 377**) [HERE](http://access.osvr.co
 
 
 ## SteamVR Setup
-<p>⚠ SteamVR must be install on your computer ⚠
-Go into **relativ-core\SteamVR**
-Take All the files and paste it in the **drivers** folder in your Steam folder 
-(**PATH_TO_STEAM\Steam\steamapps\common\SteamVR\drivers**)</p>
+<p>⚠ SteamVR must be install on your computer ⚠<br />
+Go into <b>relativ-core\SteamVR</b><br />
+Take All the files and paste it in the <b><i>drivers</i></b> folder in your Steam folder <br />
+(<b><i>PATH_TO_STEAM\Steam\steamapps\common\SteamVR\drivers</i></b>)</p>
 
 <img src="/img/steamVR_folder.png">
 
 
 ## OSVR Setup
 ### 1. osvr_server_config.json
-<p>Go into <b>relativ-core\OSVR\Configs</b>
-  Drag and Drop the osvr_server_config.json in the <b><i>bin</i></b> folder of OSVR
+<p>Go into <b>relativ-core\OSVR\Configs</b><br />
+  Drag and Drop the osvr_server_config.json in the <b><i>bin</i></b> folder of OSVR<br />
 (<b><i>PATH_TO_OSVR\OSVR\Runtime\bin</i></b>)</p>
 
 <img src="/img/osvr_server_config.json.png">
 
 ### 2. Displays
-Go into **relativ-core\OSVR\Displays**
-Drag and Drop the files in the ***displays*** folder of OSVR
-(***PATH_TO_OSVR\OSVR\Runtime\bin\displays***)
+<p>Go into <b>relativ-core\OSVR\Displays</b><br />
+Drag and Drop the files in the <b><i>displays</i></b> folder of OSVR<br />
+(<b><i>PATH_TO_OSVR\OSVR\Runtime\bin\displays</i></b>)</p>
 
 <img src="/img/relativ_hmd.png">
 
 ### 3. Plugins
-Go into **relativ-core\OSVR\osvr-plugin-0**
-Drag and Drop the files in the ***osvr-plugin-0 folder*** of OSVR
-(***PATH_TO_OSVR\OSVR\Runtime\bin\osvr-plugin-0***)
+<p>Go into <b>relativ-core\OSVR\osvr-plugin-0</b><br />
+Drag and Drop the files in the <b><i>osvr-plugin-0 folder</i></b> of OSVR<br />
+(<b><i>PATH_TO_OSVR\OSVR\Runtime\bin\osvr-plugin-0</i></b>)</p>
 
 <img src="/img/plugins.png">
 
 
 ## Change the port of osvr_server_config.json
-Plug your arduino and check its port 
-Copy the port’s name and paste it in port variable of the ***osvr_server_config.json*** file and save
+<p>Plug your arduino and check its port <br />
+Copy the port’s name and paste it in port variable of the <b><i>osvr_server_config.json</i></b> file and save</p>
 
 <img src="/img/port.png">
 
 
 ## Screen Configuration 💻
-**You must have two screens (your main and the headset)**
-⚠ The second screen must be on the right of the main screen and aligned with the top border of the main screen. ⚠
+<p><b>You must have two screens (your main and the headset)</b><br />
+⚠ The second screen must be on the right of the main screen and aligned with the top border of the main screen. ⚠</p>
 
 <img src="/img/screen_order.png">
 
@@ -71,8 +71,8 @@ or else, make a new resolution by duplicating a **Relativ_HMD** and changing the
 
 
 ## Relativ and OSVR 🤖
-Now, you can start your [Relativ Headset](https://github.com/relativty/Relativ)
-Start the ***osvr_server.exe***
+<p>Now, you can start your [Relativ Headset](https://github.com/relativty/Relativ)<br />
+Start the <b><i>osvr_server.exe</i></b><br /></p>
 **** Path : FOLDER_WHERE_OSVR_IS\OSVR\bin\osvr_server.exe****
 
 <img src="/img/osvr_server.png">
