@@ -67,7 +67,7 @@ You can also change the resolution by changing the name of the display in osvr_s
 
 or else, make a new resolution by duplicating a **Relativ_HMD** and changing the height and width lines in the OSVR ***displays*** folder.
 
-<img src="/img/résolution.png">
+<img src="/img/resolution.png">
 
 
 ## Relativ and OSVR 🤖
