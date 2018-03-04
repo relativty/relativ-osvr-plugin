@@ -1,0 +1,17 @@
+{
+  "deviceVendor": "Relativty",
+  "deviceName": "Relativ",
+  "author": "Relativty",
+  "version": "0.1",
+  "lastModified": "2018-02-26T00:00:00.000Z",
+  "interfaces": {
+    "tracker": {
+      "count": 1,
+      "position": false,
+      "orientation": true
+    }
+  },
+  "semantic": {
+    "Relativty": "tracker/0"
+  }
+}
