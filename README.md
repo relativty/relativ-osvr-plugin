@@ -17,19 +17,19 @@ You can download the latest version (**build 377**) [HERE](http://access.osvr.co
 
 
 ## SteamVR Setup
-⚠ SteamVR must be install on your computer ⚠
+<p>⚠ SteamVR must be install on your computer ⚠
 Go into **relativ-core\SteamVR**
 Take All the files and paste it in the **drivers** folder in your Steam folder 
-(**PATH_TO_STEAM\Steam\steamapps\common\SteamVR\drivers**)
+(**PATH_TO_STEAM\Steam\steamapps\common\SteamVR\drivers**)</p>
 
 <img src="/img/steamVR_folder.png">
 
 
 ## OSVR Setup
 ### 1. osvr_server_config.json
-Go into **relativ-core\OSVR\Configs**
-Drag and Drop the osvr_server_config.json in the ***bin*** folder of OSVR
-(***PATH_TO_OSVR\OSVR\Runtime\bin***)
+<p>Go into <b>relativ-core\OSVR\Configs</b>
+  Drag and Drop the osvr_server_config.json in the <b><i>bin</i></b> folder of OSVR
+(<b><i>PATH_TO_OSVR\OSVR\Runtime\bin</i></b>)</p>
 
 <img src="/img/osvr_server_config.json.png">
 
