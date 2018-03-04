@@ -72,8 +72,8 @@ or else, make a new resolution by duplicating a **Relativ_HMD** and changing the
 
 ## Relativ and OSVR 🤖
 <p>Now, you can start your [Relativ Headset](https://github.com/relativty/Relativ)<br />
-Start the <b><i>osvr_server.exe</i></b><br /></p>
-**** Path : FOLDER_WHERE_OSVR_IS\OSVR\bin\osvr_server.exe****
+Start the <b><i>osvr_server.exe</i></b><br />
+<strong><i> Path : FOLDER_WHERE_OSVR_IS\OSVR\bin\osvr_server.exe</i></strong></p>
 
 <img src="/img/osvr_server.png">
 
@@ -87,6 +87,6 @@ A little SteamVR's window appear:
 
 <img src="/img/steamVR_checkwindow.png">
 
-**Finally, you can play with Relativ's headset on any SteamVR games !**🚀
+<b>Finally, you can play with Relativ's headset on any SteamVR games !</b>🚀
 
 <img src="/img/steamVR_game.png">
