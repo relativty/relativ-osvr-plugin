@@ -13,7 +13,7 @@ $ git clone https://github.com/relativty/relativ-core
 
 
 ## Download OSVR
-You can download the **latest version [HERE](http://access.osvr.com/binary/osvr-runtime-installer)
+You can download the <strong>latest version</strong> [HERE](http://access.osvr.com/binary/osvr-runtime-installer)
 
 
 ## SteamVR Setup
