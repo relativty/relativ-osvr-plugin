@@ -3,14 +3,14 @@
     "display": "displays/Relativ_HMD_1920.json",
     "renderManagerConfig": "sample-configs/renderManager.extended.landscape.json",
     "drivers": [{
-        "plugin": "Relativ_Core",
+        "plugin": "Relativ_OSVR_Plugin",
         "driver": "Relativ",
         "params": {
             "port":"com3"
         }
     }],
     "aliases": {
-        "/me/head": "/Relativ_Core/Relativ/semantic/Relativty"
+        "/me/head": "/Relativ_OSVR_Plugin/Relativ/semantic/Relativty"
     },
     "server": {
         "sleep": 1

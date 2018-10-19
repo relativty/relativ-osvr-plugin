@@ -11,9 +11,9 @@ find_package(osvr REQUIRED)
 # This generates a header file, from the named json file, containing a string literal
 # named com_osvr_example_selfcontained_json (not null terminated)
 # The file must be added as a source file to some target (as below) to be generated.
-osvr_convert_json(Relativ_Core_json
-    Relativ_Core.json
-    "${CMAKE_CURRENT_BINARY_DIR}/Relativ_Core_json.h")
+osvr_convert_json(Relativ_OSVR_Plugin_json
+    Relativ_OSVR_Plugin.json
+    "${CMAKE_CURRENT_BINARY_DIR}/Relativ_OSVR_Plugin_json.h")
 
 # Be able to find our generated header file.
 include_directories("${CMAKE_CURRENT_BINARY_DIR}")
@@ -25,8 +25,8 @@ include_directories("${CMAKE_CURRENT_BINARY_DIR}")
 osvr_add_plugin(NAME Relativ_Core
     CPP # indicates we'd like to use the C++ wrapper
     SOURCES
-    Relativ_Core.cpp
-    "${CMAKE_CURRENT_BINARY_DIR}/Relativ_Core_json.h")
+    Relativ_OSVR_Plugin.cpp
+    "${CMAKE_CURRENT_BINARY_DIR}/Relativ_OSVR_Plugin_json.h")
 
 # If you use other libraries, find them and add a line like:
 # target_link_libraries(com_osvr_example_selfcontained AnyOtherLibraries)
