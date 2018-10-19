@@ -1,6 +1,6 @@
-# relativ-core
+# relativ-osvr-core
 
-### Important ! ⚠ BEFORE LOOKING AT ANYTHING CHECK <a href="https://github.com/relativty/Relativ">Relativ</a>, the VR headset that relativ-core is designed for ⚠
+### Important ! ⚠ BEFORE LOOKING AT ANYTHING CHECK <a href="https://github.com/relativty/Relativ">Relativ</a>, the VR headset that relativ-osvr-core is designed for ⚠
 
 # Getting Started ⚡️
 ## Installation
@@ -18,7 +18,7 @@ You can download the <strong>latest version</strong> [HERE](http://access.osvr.c
 
 ## SteamVR Setup
 <p>⚠ SteamVR must be installed on your computer ⚠<br />
-Go into <b>relativ-core\SteamVR</b><br />
+Go into <b>relativ-osvr-core\SteamVR</b><br />
 Take All the files and paste them in the <b><i>drivers</i></b> folder in your Steam directory <br />
 (<b><i>PATH_TO_STEAM\Steam\steamapps\common\SteamVR\drivers</i></b>)</p>
 
@@ -27,7 +27,7 @@ Take All the files and paste them in the <b><i>drivers</i></b> folder in your St
 
 ## OSVR Setup
 ### 1. osvr_server_config.json
-<p>Go into <b>relativ-core\OSVR\Configs</b><br />
+<p>Go into <b>relativ-osvr-core\OSVR\Configs</b><br />
   Drag and Drop or Copy the osvr_server_config.json into the <b><i>bin</i></b> folder of OSVR<br />
 (<b><i>PATH_TO_OSVR\OSVR\Runtime\bin</i></b>)</p>
 
@@ -41,7 +41,7 @@ Drag and Drop or Copy the files into the <b><i>displays</i></b>in the OSVR direc
 <img src="/img/relativ_hmd.png">
 
 ### 3. Plugins
-<p>Go into <b>relativ-core\OSVR\osvr-plugin-0</b><br />
+<p>Go into <b>relativ-osvr-core\OSVR\osvr-plugin-0</b><br />
 Drag and Drop or Copy the files in the <b><i>osvr-plugin-0 folder</i></b>in the OSVR directory<br />
 (<b><i>PATH_TO_OSVR\OSVR\Runtime\bin\osvr-plugin-0</i></b>)</p>
 
