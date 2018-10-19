@@ -4,11 +4,11 @@
 
 # Getting Started ⚡️
 ## Installation
-You can either install it using [Git](https://git-scm.com/) or direct [Download](https://github.com/relativty/relativ-core/archive/master.zip). Or from the <strong>command line</strong>:
+You can either install it using [Git](https://git-scm.com/) or direct [Download](https://github.com/relativty/relativ-osvr-core/archive/master.zip). Or from the <strong>command line</strong>:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/relativty/relativ-core
+$ git clone https://github.com/relativty/relativ-osvr-core
 ```
 
 
@@ -34,7 +34,7 @@ Take All the files and paste them in the <b><i>drivers</i></b> folder in your St
 <img src="/img/osvr_server_config.json.png">
 
 ### 2. Displays
-<p>Go into <b>relativ-core\OSVR\Displays</b><br />
+<p>Go into <b>relativ-osvr-core\OSVR\Displays</b><br />
 Drag and Drop or Copy the files into the <b><i>displays</i></b>in the OSVR directory<br />
 (<b><i>PATH_TO_OSVR\OSVR\Runtime\bin\displays</i></b>)</p>
 
