@@ -18,7 +18,7 @@
 #include <serial/serial.h>
 
 // Json header
-#include "Relativ_Core_json.h"
+#include "Relativ_OSVR_Plugin.h"
 
 #define DEVICE_NAME "Relativ"
 
@@ -140,7 +140,7 @@ namespace {
 			OSVR_DeviceInitOptions opts = osvrDeviceCreateInitOptions(ctx);
 			osvrDeviceTrackerConfigure(opts, &m_tracker);
 			m_dev.initAsync(ctx, DEVICE_NAME, opts);
-			m_dev.sendJsonDescriptor(Relativ_Core_json);
+			m_dev.sendJsonDescriptor(Relativ_OSVR_Plugin);
 			m_dev.registerUpdateCallback(this);
 
 			osvrQuatSetIdentity(&rotation_offset);
@@ -339,7 +339,7 @@ namespace {
 	};
 }
 
-OSVR_PLUGIN(Relativ_Core) {
+OSVR_PLUGIN(Relativ_OSVR_Plugin) {
 	osvr::pluginkit::PluginContext context(ctx);
 	osvr::pluginkit::registerDriverInstantiationCallback(ctx, DEVICE_NAME, new Relativ_Tracker_Constructor);
 	return OSVR_RETURN_SUCCESS;
