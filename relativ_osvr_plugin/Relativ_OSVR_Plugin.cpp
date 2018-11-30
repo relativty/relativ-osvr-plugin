@@ -54,7 +54,8 @@ namespace {
 			serial::Serial relativ;
 			std::string last_recv;
 			try {
-				relativ.setTimeout(serial::Timeout::simpleTimeout(1000));
+				serial::Timeout sto = serial::Timeout::simpleTimeout(1000);
+				relativ.setTimeout(sto);
 				relativ.setPort(port);
 				relativ.setBaudrate(115200);
 				while (!relativ.isOpen()) {
